@@ -8111,7 +8111,7 @@
 	    // Add the URL at the bottom
 	    saveCtx.fillText('snapw.at', saveCanvas.width - 72, saveCanvas.height - 10);
 
-	    saveImage.src = saveCanvas.toDataURL('image/png');
+	    saveImage.src = saveCanvas.toDataURL('image/jpeg');
 	    saveCanvas.style.display = 'none';
 	    saveImage.style.display = 'block';
 
