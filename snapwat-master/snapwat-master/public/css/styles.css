@@ -8,7 +8,7 @@ body {
   font-size: 100%;
   margin: 0;
   padding: 0;
-  background-color: #c7baff;
+  background-color: #93caff;
   color: #333;
   height: 100%;
   overflow: hidden;
@@ -16,7 +16,7 @@ body {
 }
 
 header {
-  background: #987fff;
+  background: #e58f0d;
   height: 72px;
   color: #333;
 }
@@ -110,13 +110,13 @@ header h3 {
 
 h1 {
   display: inline-block;
-  font-size: 3em;
-  color: #8b74ea;
-  margin: 0 0 0.25em 0;
+  font-size: 5em;
+  color: #e58f0d;
+  margin: 0 0 .05em 0;
   text-align: left;
   font-weight: normal;
   padding-left: 1.3em;
-  background: url(../images/snapwat-icon-purple.svg) left 0.25em no-repeat;
+  background: url(file:///Users/mattrockey/Downloads/TigerCloudLogo.svg) left 0.25em no-repeat;
   background-size: 1em 1em;
 }
 
