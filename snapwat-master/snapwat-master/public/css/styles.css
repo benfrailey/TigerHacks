@@ -8,8 +8,8 @@ body {
   font-size: 100%;
   margin: 0;
   padding: 0;
-  background-color: #93caff;
-  color: #333;
+  background-color: #000000;
+  color: rgb(255, 255, 255);
   height: 100%;
   overflow: hidden;
   text-align: center;
@@ -18,7 +18,7 @@ body {
 header {
   background: #e58f0d;
   height: 72px;
-  color: #333;
+  color: rgb(255, 255, 255);
 }
 
 header label,
@@ -92,7 +92,7 @@ header .right button {
 }
 
 header a {
-  color: #444;
+  color: rgb(255, 255, 255);
   text-decoration: none;
 }
 
@@ -115,9 +115,9 @@ h1 {
   margin: 0 0 .05em 0;
   text-align: left;
   font-weight: normal;
-  padding-left: 1.3em;
-  background: url(file:///Users/mattrockey/Downloads/TigerCloudLogo.svg) left 0.25em no-repeat;
-  background-size: 1em 1em;
+  padding-left: 1.5em;
+  background: url(https://imgur.com/vS4SxLh.jpg) left 0.25em no-repeat;
+  background-size: 1.5em 1em;
 }
 
 h2 {
@@ -153,8 +153,8 @@ h2 {
   top: 72px;
   left: 0;
   overflow: hidden;
-  background: #c7baff;
-  background: linear-gradient(#e6e0ff, #c7baff);
+  background: #000000;
+  background: linear-gradient(#000000, #000000);
 }
 
 header input,
@@ -180,7 +180,7 @@ header button {
 
 #input-colour-substitute {
   background: #000;
-  border: 1px solid #ccc;
+  border: 1px solid rgb(250, 0, 0);
   width: 35px;
   height: 25px;
 }
@@ -195,14 +195,14 @@ header button {
 
 .page a,
 .page a:hover {
-  color: #555;
+  color: #ffa600;
 }
 
 .page button {
   cursor: pointer;
   border-radius: 5px;
   border: 0;
-  background: #987fff;
+  background: #ffa600;
   color: #fff;
   padding: 10px 15px;
   font-size: 1.1em;
@@ -267,7 +267,7 @@ video {
   left: 2.5%;
   padding: 15px;
   box-sizing: border-box;
-  background: #987fff;
+  background: #ffa600;
   color: #fff;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
@@ -389,7 +389,7 @@ video {
   bottom: 25px;
   left: 5%;
   width: 90%;
-  background: #987fff;
+  background: #ffa600;
   border-radius: 8px;
   padding: 5px 8px;
   font-size: 1.1em;
@@ -420,7 +420,7 @@ video {
 
 #input-photo + label {
   font-size: 1.3em;
-  background: #987fff;
+  background: #ffa600;
   color: #fff;
   border-radius: 5px;
   display: inline-block;
