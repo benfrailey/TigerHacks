@@ -8203,11 +8203,30 @@
 	      console.error('Error loading image', result);
 	    } else {
 
-	      console.log('Generated canvas width and height', result.width, result.height);
+		  console.log('Generated canvas width and height', result.width, result.height);
+		  console.log(e.target.files[0].filename)
+		  console.log(e.target.files[0])
+
+		  $.ajax({
+			url: "https://0.0.0.0:5000/image",
+			type: "POST",
+			data: e.target.files[0],
+			processData: false,
+			contentType: false,
+			success: function(data) {
+				// .. do something
+				console.log(data)
+				console.log("success");
+			},
+			error: function(jqXHR, textStatus, errorMessage) {
+				console.log(errorMessage); // Optional
+				console.log("ERORR");
+			}
+			});
 
 	      // Replace our default canvas (for video) with the generated one
 	      result.id = 'canvas-camera';
-
+			
 	      annotateCameraContainer.removeChild(cameraCanvas);
 	      annotateCameraContainer.appendChild(result);
 
